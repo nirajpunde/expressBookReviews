@@ -1,14 +1,8 @@
-let books = {
-      1: {"author": "Chinua Achebe","title": "Things Fall Apart", "reviews": {} },
-      2: {"author": "Hans Christian Andersen","title": "Fairy tales", "reviews": {} },
-      3: {"author": "Dante Alighieri","title": "The Divine Comedy", "reviews": {} },
-      4: {"author": "Unknown","title": "The Epic Of Gilgamesh", "reviews": {} },
-      5: {"author": "Unknown","title": "The Book Of Job", "reviews": {} },
-      6: {"author": "Unknown","title": "One Thousand and One Nights", "reviews": {} },
-      7: {"author": "Unknown","title": "Nj\u00e1l's Saga", "reviews": {} },
-      8: {"author": "Jane Austen","title": "Pride and Prejudice", "reviews": {} },
-      9: {"author": "Honor\u00e9 de Balzac","title": "Le P\u00e8re Goriot", "reviews": {} },
-      10: {"author": "Samuel Beckett","title": "Molloy, Malone Dies, The Unnamable, the trilogy", "reviews": {} }
-}
+let books = [
+  { isbn: '978-0743273565', title: 'The Great Gatsby', author: 'F. Scott Fitzgerald', reviews: ["A classic of American literature", "A poignant reflection on the American Dream", "Short but impactful"] },
+  { isbn: '978-0061120084', title: 'To Kill a Mockingbird', author: 'Harper Lee', reviews: ["Excellent character development", "Addresses important social issues", "Must-read for all ages"] },
+  { isbn: '978-0451524935', title: '1984', author: 'George Orwell', reviews: ["A disturbing but relevant dystopian vision", "Thought-provoking look at totalitarianism", "Changed my perspective"] },
+  { isbn: '978-0547928227', title: 'The Hobbit', author: 'J.R.R. Tolkien', reviews: ["Fantastic world-building", "A fun adventure story", "Perfect introduction to fantasy"] }
+];
 
 module.exports=books;
